@@ -1,6 +1,7 @@
 # TF2007 Project - Redux
 
 A very, very, very heavily modified version of Drixevel's [TF2-2007 project](https://github.com/Drixevel-Archive/TF2-2007).
+
 This is a suite of Sourcemod plugins that try to simulate TF2 1.0.0.9 (the version released on October 11, 2007), as well as a couple of others that I made. 
 
 ## PLUGINS
@@ -41,11 +42,13 @@ This is a suite of Sourcemod plugins that try to simulate TF2 1.0.0.9 (the versi
 ## DEPENDENCIES
 
 [TF2Items](https://forums.alliedmods.net/showthread.php?t=115100)
+
 [TF2Attributes](https://github.com/FlaminSarge/tf2attributes)
 
 ## RECOMMENDED
 
 stockonly.sp and stockonly.txt from [Mikusch's misc plugins repoo](https://github.com/Mikusch/tf2-misc/tree/master)
+
 [tf-bhop](https://github.com/Mikusch/tf-bhop) (optional)
 
 ## TODO - FEATURES
