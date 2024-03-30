@@ -47,7 +47,7 @@ This is a suite of Sourcemod plugins that try to simulate TF2 1.0.0.9 (the versi
 
 ## RECOMMENDED
 
-stockonly.sp and stockonly.txt from [Mikusch's misc plugins repoo](https://github.com/Mikusch/tf2-misc/tree/master)
+stockonly.sp and stockonly.txt from [Mikusch's misc plugins repo](https://github.com/Mikusch/tf2-misc/tree/master)
 
 [tf-bhop](https://github.com/Mikusch/tf-bhop) (optional)
 
