@@ -2,7 +2,7 @@
 
 A very, very, very heavily modified version of Drixevel's [TF2-2007 project](https://github.com/Drixevel-Archive/TF2-2007).
 
-This is a suite of Sourcemod plugins that try to simulate TF2 1.0.0.9 (the version released on October 11, 2007), as well as a couple of others that I made. 
+This is a suite of Sourcemod plugins that try to simulate TF2 1.0.0.9 (the version released on October 11, 2007), as well as a couple of others that help enhance that authentic 2007 experience. 
 
 ## PLUGINS
 
