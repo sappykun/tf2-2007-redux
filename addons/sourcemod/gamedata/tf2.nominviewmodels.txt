@@ -1,0 +1,14 @@
+"Games"
+{
+	"tf"
+	{
+		"Offsets"
+		{
+			"CEconItemView::IterateAttributes"
+			{
+				"linux" "19"
+				"windows" "18"
+			}
+		}
+	}
+}

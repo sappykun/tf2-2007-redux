@@ -1,0 +1,31 @@
+"Games"
+{
+    "tf"
+    {
+        "Signatures"
+        {
+			"CTFPlayer::NoteSpokeVoiceCommand"
+            {
+                "library"   "server"
+                //"windows"	""
+				"linux" "\x55\x89\xE5\x56\x53\x83\xEC\x10\xA1\x2A\x2A\x2A\x2A\x8B\x5D\x08\x8B\x75\x0C\xF3\x0F\x10\x40\x0C"
+            }
+        }
+
+        "Addresses"
+        {
+			"NoteSpokeVoiceCommand"
+            {
+                "signature" "CTFPlayer::NoteSpokeVoiceCommand"
+            }
+        }
+		
+		"Offsets"
+		{
+			"m_iVoiceSpamCounter"
+			{
+				"linux" "179"
+			}
+		}
+    }
+}

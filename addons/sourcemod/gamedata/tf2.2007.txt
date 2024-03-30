@@ -1,0 +1,94 @@
+"Games"
+{
+	"tf"
+	{
+		"Signatures"
+		{
+            "CTFPlayer::CanPickupBuilding"
+			{
+				"library"	"server"
+				"linux"	"@_ZN9CTFPlayer17CanPickupBuildingEP11CBaseObject"
+			}
+			"CBaseEntity::VPhysicsInitNormal"
+			{
+				"library"	"server"
+				"linux"	"@_ZN11CBaseEntity18VPhysicsInitNormalE11SolidType_tibP7solid_t"
+			}
+			"CWeaponMedigun::FindAndHealTargets"
+			{
+				"library"	"server"
+				"linux"	"@_ZN14CWeaponMedigun18FindAndHealTargetsEv"
+			}
+			"CWeaponMedigun::DrainCharge"
+			{
+				"library"	"server"
+				"linux"	"@_ZN14CWeaponMedigun11DrainChargeEv"
+			}
+			"CWeaponMedigun::ItemHolsterFrame"
+			{
+				"library"	"server"
+				"linux"	"@_ZN14CWeaponMedigun16ItemHolsterFrameEv"
+			}
+        }
+		
+        "Addresses"
+        {
+			"DrainCharge"
+            {
+                "signature" "CWeaponMedigun::DrainCharge"
+            }
+        }
+			
+		"Offsets"
+		{
+			"CBaseEntity::CanBeUpgraded"
+			{
+				"linux" "413"
+				"windows" "399"
+			}
+			"flExtraPlayerCost"
+			{
+				"linux" "522"
+			}
+		}
+		
+		"Functions"
+		{
+			"CBaseEntity::CanBeUpgraded"
+			{
+				"offset" "CBaseEntity::CanBeUpgraded"
+				"hooktype" "entity"
+				"this" "entity"
+				"return" "bool"
+			}
+			"CTFPlayer::CanPickupBuilding"
+			{
+				"signature" "CTFPlayer::CanPickupBuilding"
+				"callconv" "thiscall"
+				"this" "entity"
+				"return" "bool"
+			}
+			"CWeaponMedigun::FindAndHealTargets"
+			{
+				"signature" "CWeaponMedigun::FindAndHealTargets"
+				"callconv" "thiscall"
+				"this" "entity"
+				"return" "bool"
+			}
+			"CWeaponMedigun::DrainCharge"
+			{
+				"signature" "CWeaponMedigun::DrainCharge"
+				"callconv" "thiscall"
+				"this" "entity"
+				"return" "void"
+			}
+			"CWeaponMedigun::ItemHolsterFrame"
+			{
+				"signature" "CWeaponMedigun::ItemHolsterFrame"
+				"callconv" "thiscall"
+				"this" "entity"
+				"return" "void"
+			}
+		}
+	}
+}
